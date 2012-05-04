@@ -89,7 +89,8 @@
   <bean id="dataSource" class="com.atomikos.jdbc.AtomikosDataSourceBean"
 		init-method="init" destroy-method="close">
 		<property name="uniqueResourceName" value="testdb" />
-		<property name="xaDataSourceClassName" value="org.apache.derby.jdbc.EmbeddedXADataSource40" />
+		<!-- Atomikos does not implement JDBC 4.0 -->
+		<property name="xaDataSourceClassName" value="org.apache.derby.jdbc.EmbeddedXADataSource" />
 		<property name="xaProperties">
 			<props>
 				<prop key="databaseName">target/atomikos</prop>
