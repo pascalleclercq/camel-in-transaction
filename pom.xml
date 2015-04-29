@@ -130,7 +130,7 @@
 				<version>2.12</version>
 				<configuration>
 					<workingDirectory>${project.build.directory}</workingDirectory>
-					<runOrder>reversealphabetical</runOrder>
+				<!--	<runOrder>reversealphabetical</runOrder> -->
 					<forkMode>always</forkMode>
 					<systemProperties>
 						<property>
