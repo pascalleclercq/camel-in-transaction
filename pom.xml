@@ -131,6 +131,7 @@
 				<configuration>
 					<workingDirectory>${project.build.directory}</workingDirectory>
 					<runOrder>reversealphabetical</runOrder>
+					<forkMode>always</forkMode>
 					<systemProperties>
 						<property>
 							<name>jotm.home</name>
