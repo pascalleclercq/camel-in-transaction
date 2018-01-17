@@ -74,5 +74,6 @@
         <property name="driverClassName" value="org.apache.derby.jdbc.EmbeddedXADataSource40"/>
         <property name="url" value="jdbc:derby:geronimo;create=true"/>
         <property name="defaultAutoCommit" value="false"/>
+        <property name="validationQuery" value="VALUES 1"/>
     </bean>
 </beans>

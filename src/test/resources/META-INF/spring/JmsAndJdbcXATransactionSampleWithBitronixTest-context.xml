@@ -68,6 +68,7 @@
         <property name="uniqueName" value="testdb" />
         <property name="className" value="org.apache.derby.jdbc.EmbeddedXADataSource40"/>
         <property name="maxPoolSize" value="5"/>
+        <property name="testQuery" value="VALUES 1"/>
 	    <property name="driverProperties">
             <props>
                 <prop key="databaseName">bitronix</prop>
