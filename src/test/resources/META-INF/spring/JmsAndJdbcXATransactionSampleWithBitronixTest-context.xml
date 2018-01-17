@@ -70,7 +70,7 @@
         <property name="maxPoolSize" value="5"/>
 	    <property name="driverProperties">
             <props>
-                <prop key="databaseName">testdb</prop>
+                <prop key="databaseName">bitronix</prop>
                 <prop key="connectionAttributes">create=true</prop>
             </props>
         </property>

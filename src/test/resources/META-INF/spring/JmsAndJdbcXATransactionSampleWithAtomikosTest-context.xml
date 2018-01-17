@@ -84,10 +84,10 @@
 		init-method="init" destroy-method="close">
 		<property name="uniqueResourceName" value="testdb" />
 		<!-- Atomikos doesn't implement JDBC 4.0 -->
-		<property name="xaDataSourceClassName" value="org.apache.derby.jdbc.EmbeddedXADataSource" />
+		<property name="xaDataSourceClassName" value="org.apache.derby.jdbc.EmbeddedXADataSource40" />
 		<property name="xaProperties">
 			<props>
-				<prop key="databaseName">testdb</prop>
+				<prop key="databaseName">atomikos</prop>
 				<prop key="connectionAttributes">create=true</prop>
 			</props>
 		</property>
